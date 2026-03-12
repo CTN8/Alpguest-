@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AlpGuest Revenue Analytics</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="page analytics">
+    <nav class="top-nav">
+      <div class="brand">
+        <span class="brand-mark">AlpGuest</span>
+        <span class="brand-sub">Revenue Analytics</span>
+      </div>
+      <div class="nav-links">
+        <a href="index.html">Hem</a>
+        <a class="active" href="revenue-analytics.html">Analytics</a>
+        <a href="#properties">Properties</a>
+        <a href="#integrations">Integrations</a>
+      </div>
+    </nav>
+
+    <header class="analytics-hero">
+      <div>
+        <p class="eyebrow">Prissatt i realtid</p>
+        <h1>Revenue Analytics som väger varje faktor mot intäkt per natt</h1>
+        <p class="lead">AlpGuest samlar in säsongsdata, väder, efterfrågan och marknadspriser för att ge ett heltäckande prisbeslut. Det är lika delar alpernas puls, konkurrenternas rörelser och dina egna policyer.</p>
+        <div class="hero-cta">
+          <a class="btn primary" href="#algorithm">Utforska algoritmen</a>
+          <a class="btn ghost" href="#integrations">Koppla APIs</a>
+        </div>
+      </div>
+      <div class="hero-dashboard">
+        <div class="metric">
+          <p class="muted">RevPAR</p>
+          <h3>€ 372</h3>
+          <span class="tag up">+14 % vs förra veckan</span>
+        </div>
+        <div class="metric">
+          <p class="muted">Beläggning</p>
+          <h3>82 %</h3>
+          <span class="tag up">+9 % över plan</span>
+        </div>
+        <div class="metric">
+          <p class="muted">Lead time</p>
+          <h3>19 dagar</h3>
+          <span class="tag down">-3 dagar</span>
+        </div>
+        <div class="spark-panel">
+          <h4>Prisindex nästa 14 dagar</h4>
+          <div class="spark-bars">
+            <span style="height:30%"></span>
+            <span style="height:55%"></span>
+            <span style="height:70%"></span>
+            <span style="height:45%"></span>
+            <span style="height:88%"></span>
+            <span style="height:64%"></span>
+            <span style="height:92%"></span>
+            <span style="height:58%"></span>
+            <span style="height:80%"></span>
+            <span style="height:52%"></span>
+          </div>
+          <p class="muted">Peak-window under sportlov och helger.</p>
+        </div>
+      </div>
+    </header>
+
+    <section id="algorithm" class="section">
+      <h2>Prissättningsalgoritmen</h2>
+      <p class="section-intro">Varje prisförslag bygger på ett lager av faktorer. Algoritmen väger dem mot varandra och ger en justerbar rekommendation.</p>
+      <div class="grid algorithm-grid">
+        <article class="card">
+          <h3>Säsong & tid på året</h3>
+          <p>Låg-, medel- och högsäsong styr baspriset. Vintern är högsäsong i Alperna, medan sommaren ofta är medel eller låg.</p>
+          <p class="muted">Helger, skollov, nyår och lokala helgdagar trycker upp efterfrågan.</p>
+        </article>
+        <article class="card">
+          <h3>Väderförhållanden</h3>
+          <p>Snöfall, snödjup och prognos påverkar skidorternas tryck. Varma sommardagar driver efterfrågan på chalets för vandring och cykling.</p>
+          <p class="muted">Algoritmen justerar priser så fort vädret skiftar.</p>
+        </article>
+        <article class="card">
+          <h3>Beläggning & efterfrågan</h3>
+          <p>Historisk beläggning, aktuell tillgänglighet och närliggande bokningar formar efterfrågan. Lokala evenemang kan skapa kraftiga toppar.</p>
+          <p class="muted">Exempel: världscupen i alpint lyfter hela destinationen.</p>
+        </article>
+        <article class="card">
+          <h3>Fastighetens egenskaper</h3>
+          <p>Storlek, kapacitet, utsikt och läge påverkar priset. Pool, bastu, privat chaufför eller premiuminredning lyfter enheten till premiumsegment.</p>
+          <p class="muted">Automatisk profilering gör att exklusiva boenden alltid ligger rätt.</p>
+        </article>
+        <article class="card">
+          <h3>Konkurrens & marknadspriser</h3>
+          <p>Algoritmen jämför liknande chalets i realtid och matchar prisrörelser från marknaden.</p>
+          <p class="muted">När konkurrenter höjer eller sänker reagerar AlpGuest direkt.</p>
+        </article>
+        <article class="card">
+          <h3>Sökaktivitet & bokningsmönster</h3>
+          <p>Hög sökvolym signalerar demand spikes. Lead time och vistelselängd påverkar priset för att maximera intäkter.</p>
+          <p class="muted">Kortare vistelser kan prissättas högre per natt.</p>
+        </article>
+        <article class="card">
+          <h3>Gästtyp & demografi</h3>
+          <p>Familj, par eller grupp påverkar betalningsviljan. Återkommande gäster kan få styrda erbjudanden utan att sänka prisnivån.</p>
+          <p class="muted">Gästbetyg påverkar premium-prissättning direkt.</p>
+        </article>
+        <article class="card">
+          <h3>Marknadsfaktorer</h3>
+          <p>Lokala ekonomiska signaler, resetrender och internationell efterfrågan skiftar basnivån.</p>
+          <p class="muted">Staycations och valutaläge vägs in i prognosen.</p>
+        </article>
+        <article class="card">
+          <h3>Marknadsföring & kampanjer</h3>
+          <p>Rabatter, early-bird och kampanjer med resebyråer integreras i prissättningen.</p>
+          <p class="muted">Algoritmen justerar priset utan att tappa marginal.</p>
+        </article>
+        <article class="card wide">
+          <h3>Automatisk bildanalys</h3>
+          <p>Bildigenkänning klassificerar faciliteter, design och utsikt. Den identifierar premiumkvaliteter och jämför med konkurrenters annonser.</p>
+          <p class="muted">Analyserar även gästbilder för att föreslå förbättringar och kvalitetssäkra annonser.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="integrations" class="section integrations">
+      <h2>API-integrationer</h2>
+      <p class="section-intro">Koppla externa källor för att fylla revenue modellen med live-data.</p>
+      <div class="grid">
+        <article class="card api-card">
+          <h3>Booking.com</h3>
+          <p>Hämtar priser, tillgänglighet och marknadsjämförelser.</p>
+          <div class="code">
+            <code>GET /api/integrations/booking-com/rates</code>
+            <code>GET /api/integrations/booking-com/availability</code>
+          </div>
+          <span class="tag live">Live sync varje 30 min</span>
+        </article>
+        <article class="card api-card">
+          <h3>Airbnb</h3>
+          <p>Fångar lead time, gästbetyg och konkurrensdata.</p>
+          <div class="code">
+            <code>GET /api/integrations/airbnb/listings</code>
+            <code>GET /api/integrations/airbnb/reviews</code>
+          </div>
+          <span class="tag live">Live sync varje 60 min</span>
+        </article>
+        <article class="card api-card">
+          <h3>Weather.com</h3>
+          <p>Snö, temperatur och väderprognoser per destination.</p>
+          <div class="code">
+            <code>GET /api/integrations/weather/forecast</code>
+            <code>GET /api/integrations/weather/snow-depth</code>
+          </div>
+          <span class="tag live">Live sync varje 15 min</span>
+        </article>
+      </div>
+      <div class="pipeline">
+        <div>
+          <h3>Datapipeline</h3>
+          <p>Raw data normaliseras, värderas och pumpas in i revenue-modellen.</p>
+          <ul class="checklist">
+            <li>Normalisering per kanal och språk</li>
+            <li>Outlier-detektion & prishantering</li>
+            <li>Elasticitetsmodell för destinationer</li>
+            <li>Forecast och scenario-simulering</li>
+          </ul>
+        </div>
+        <div class="pipeline-card">
+          <h4>Status</h4>
+          <div class="status-row">
+            <span>Booking.com</span>
+            <span class="tag up">OK</span>
+          </div>
+          <div class="status-row">
+            <span>Airbnb</span>
+            <span class="tag up">OK</span>
+          </div>
+          <div class="status-row">
+            <span>Weather.com</span>
+            <span class="tag up">OK</span>
+          </div>
+          <div class="status-row">
+            <span>Prismodell</span>
+            <span class="tag live">Kalibrerar</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="properties" class="section properties">
+      <h2>Properties</h2>
+      <p class="section-intro">Lägg till en ny fastighet och låt bildanalysen sköta klassificeringen.</p>
+      <div class="twin">
+        <div class="card form-card">
+          <h3>Add property</h3>
+          <label class="field">
+            <span>Namn på fastighet</span>
+            <input type="text" placeholder="Chalet Aurora" />
+          </label>
+          <label class="field">
+            <span>Plats</span>
+            <input type="text" placeholder="Val d'Isère, FR" />
+          </label>
+          <label class="field">
+            <span>Kapacitet</span>
+            <input type="text" placeholder="6 gäster, 3 sovrum" />
+          </label>
+          <label class="field">
+            <span>Lägg till bilder</span>
+            <div class="dropzone">Dra & släpp bilder här eller klicka för att ladda upp</div>
+          </label>
+          <div class="toggle-row">
+            <input type="checkbox" checked />
+            <span>Aktivera AI bildanalys</span>
+          </div>
+          <button class="btn primary" type="button">Skapa fastighet</button>
+        </div>
+        <div class="card ai-card">
+          <h3>AI bildanalys</h3>
+          <p>Automatisk klassificering gör att fastigheten får rätt prissättning direkt.</p>
+          <ul class="checklist">
+            <li>Identifierar premiumfaciliteter och designval</li>
+            <li>Analyserar utsikt och placering för premium-prissättning</li>
+            <li>Jämför bilder mot konkurrenters annonser</li>
+            <li>Bedömer bildkvalitet för snabbare bokning</li>
+            <li>Rekommenderar förbättringar baserat på gästbilder</li>
+          </ul>
+          <div class="tag live">Vision pipeline aktiv</div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>Vill du se en demo av revenue analytics i praktiken?</p>
+      <a class="btn primary" href="#">Boka en genomgång</a>
+    </footer>
+  </div>
+</body>
+</html>
